@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package protos;
+
+option go_package = "github.com/wildanpurnomo/go-serialport-grpc/protos";
+
+message Request {
+}
+
+message Response {
+    string serial_data = 1;
+}
+
+service Serial {
+    rpc GetSerialData(Request) returns (stream Response) {};
+}
