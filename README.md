@@ -7,7 +7,7 @@ we can make a server that send the data to html and open the html in phone brows
 hehe.
 
 originally I used socket io as transfer method but in this repo I tried grpc for no reason. 
-what annoying is that grpc is currently has less browser support compared to websocket.
+what annoying is that grpc currently has less browser support compared to websocket.
 therefore in order bridge server and web client, you need a proxy.
 
 how to run server:
