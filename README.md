@@ -2,8 +2,8 @@
 one day I was asked how to display sensor data arduino into mobile phone.
 "do we need additional hardware module, etc"
 
-well yes, but there's another option
-we can make a server that send the data to html and open the html in phone browser.
+well yes
+or we can just make a server that send the data to html and open the html in phone browser.
 hehe.
 
 originally I used socket io as transfer method but in this repo I tried grpc for no reason. 
