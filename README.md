@@ -28,8 +28,8 @@ how to run cli client:
 how to run web-client:
 - go to root
 - cd to envoy-proxy directory
-- docker build -t go-serialport-grpc-envoy:v1 .
-- docker run -dp 8080:8080 go-serialport-grpc-envoy:v1
+- docker build -t <tag_name> .
+- docker run -dp 8080:8080 <tag_name>
 - run server
 - cd to web-client directory
 - npx webpack ./grpc_client.js
