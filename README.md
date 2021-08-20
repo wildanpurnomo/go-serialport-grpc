@@ -32,6 +32,7 @@ how to run web-client:
 - docker run -dp 8080:8080 <image:tag>
 - run server
 - cd to web-client directory
+- npm install
 - npx webpack ./grpc_client.js
 - nodemon index.js / node index.js
 - wish your localhost:3000 shows something
